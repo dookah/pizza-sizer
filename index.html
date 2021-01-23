@@ -14,17 +14,22 @@
 
 <body>
     <h1 class="font-sans text-8xl text-center subpixel-antialiased">Pizza Sizer</h1>
+    <h3 id="pizza_valuation" class="font-sans text-8xl text-center subpixel-antialiased">Pizza Sizer</h3>
     <!-- Pizza 1-->
     <div>
-        <input type="range" id="pizza1" name="pizza1" min="0" max="11">
-        <label id="pizza1label" for="pizza1">6</label>
+        <h4 class="text-4xl">Two Pizzas</h4>
+        <input type="range" id="pizza1" name="pizza1" min="4" max="20">
+        <label id="pizza1label" for="pizza1"></label>
+        <input type="number" class="border-2 border-gray-400" id="pizza1price" name="pizza1price" value="10">
+        <label id="pizza1pricelabel" for="pizza1price"></label>
     </div>
     <!-- Pizza 2 -->
     <div>
-        <input type="range" id="pizza2" name="pizza2" min="0" max="11">
-        <label id="pizza2label" for="pizza2">Volume</label>
-    </div>
-
+        <h4 class="text-4xl">One Pizza</h4>
+        <input type="range" id="pizza2" name="pizza2" min="4" max="20">
+        <label id="pizza2label" for="pizza2"></label>
+        <input type="number" class="border-2 border-gray-400" id="pizza2price" name="pizza2price" value="10">
+        <label id="pizza2pricelabel" for="pizza2price"></label>
     <script src="assets/js/index.js"></script>
 </body>
 
